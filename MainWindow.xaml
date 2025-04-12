@@ -1,0 +1,68 @@
+﻿<Window x:Class="ScreenCanvas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ScreenCanvas"
+        mc:Ignorable="d"
+        
+        Title="MainWindow"
+        FontSize="20"
+        
+        Background="Transparent"
+        AllowsTransparency="True"
+        WindowStyle="None"
+        WindowState="Maximized"
+           
+        KeyDown   = "App_KeyDown"
+        MouseDown = "App_MouseDown"
+        MouseMove = "App_MouseMove"
+        MouseUp   = "App_MouseUp">
+
+    <Window.ContextMenu>
+        <ContextMenu x:Name="AppContextMenu"
+                     StaysOpen="true">
+            <MenuItem Header="Exit"
+                      x:Name="ExitButton"
+                      Click="ExitButton_Click" />
+            <MenuItem Header="Clear"
+                      x:Name="ClearButton"
+                      Click="ClearButton_Click" />
+            <MenuItem Header="Rectangle"
+                      x:Name="RectangleButton"
+                      Click="RectangleButton_Click" />
+            <Slider x:Name="rainbowSlider"
+                    Width="500"
+                    Minimum="0"
+                    Maximum="100"
+                    ValueChanged="RainbowSlider_ValueChanged"
+                    IsMoveToPointEnabled="True">
+                <Slider.Background>
+                    <LinearGradientBrush x:Name="rainbowBrush"
+                                         StartPoint="0,0.5"
+                                         EndPoint="1,0.5">
+                        <GradientStop Color="Red"
+                                      Offset="0.0" />
+                        <GradientStop Color="Orange"
+                                      Offset="0.166" />
+                        <GradientStop Color="Yellow"
+                                      Offset="0.332" />
+                        <GradientStop Color="Green"
+                                      Offset="0.498" />
+                        <GradientStop Color="Blue"
+                                      Offset="0.664" />
+                        <GradientStop Color="Indigo"
+                                      Offset="0.830" />
+                        <GradientStop Color="Violet"
+                                      Offset="1.0" />
+                    </LinearGradientBrush>
+                </Slider.Background>
+            </Slider>
+        </ContextMenu>
+    </Window.ContextMenu>
+    
+    <Grid x:Name="MainGrid">
+        <Canvas Name="PaintCanvas"
+                Background="#01FFFFFF" />
+    </Grid>
+</Window>

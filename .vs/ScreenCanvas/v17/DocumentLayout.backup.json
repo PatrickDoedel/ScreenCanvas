@@ -1,0 +1,112 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\usercontrols\\radialmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:usercontrols\\radialmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\usercontrols\\radialmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:usercontrols\\radialmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 192,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1591247812:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RadialMenu.xaml",
+              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\UserControls\\RadialMenu.xaml",
+              "RelativeDocumentMoniker": "UserControls\\RadialMenu.xaml",
+              "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\UserControls\\RadialMenu.xaml",
+              "RelativeToolTip": "UserControls\\RadialMenu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-12T10:45:13.1Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RadialMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\UserControls\\RadialMenu.xaml.cs",
+              "RelativeDocumentMoniker": "UserControls\\RadialMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\UserControls\\RadialMenu.xaml.cs",
+              "RelativeToolTip": "UserControls\\RadialMenu.xaml.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAkwDwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T10:54:17.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T15:37:16.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
