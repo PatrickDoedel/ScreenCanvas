@@ -9,7 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ExternalCodeAssets\" />
+    <Compile Remove="UserControls\RadialMenu.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Remove="UserControls\RadialMenu.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UserControls\" />
   </ItemGroup>
 
 </Project>

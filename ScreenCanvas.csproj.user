@@ -10,18 +10,12 @@
     <Compile Update="GetUserTextWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="UserControls\RadialMenu.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GetUserTextWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UserControls\RadialMenu.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

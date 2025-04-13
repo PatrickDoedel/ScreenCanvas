@@ -1,5 +1,4 @@
-﻿using ScreenCanvas.UserControls;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
@@ -12,19 +11,11 @@ namespace ScreenCanvas
     {
         private bool isDrawingLine = false;
         private Point previousPoint;
-
-        private bool isDrawingRectangle = false;
-        private int  tempRectangleIndex = -1;
-        private Point RectangleStartingPoint = new Point { };
-        private System.Windows.Shapes.Rectangle tempRectangle = new System.Windows.Shapes.Rectangle();
-
         private SolidColorBrush colorSliderBrush = new SolidColorBrush { Color = Colors.Red };
 
         public MainWindow()
         {
             InitializeComponent();
-            tempRectangleIndex = PaintCanvas.Children.Add(tempRectangle);
-
         }
 
         private void App_MouseDown(object sender, MouseButtonEventArgs e)
@@ -33,14 +24,10 @@ namespace ScreenCanvas
             {
                 case MouseButton.Left:
                     isDrawingLine = true;
-                    RectangleStartingPoint = e.GetPosition(PaintCanvas);
-                    previousPoint = e.GetPosition(PaintCanvas);                
+                    previousPoint = e.GetPosition(PaintCanvas);
                     break;
                 case MouseButton.Middle:
-                    //Text(e.GetPosition(PaintCanvas).X, e.GetPosition(PaintCanvas).Y, Colors.Red);
-                    RadialMenu radialMenu = new RadialMenu();
-                    PaintCanvas.Children.Add(radialMenu);
-                    
+                    Text(e.GetPosition(PaintCanvas).X, e.GetPosition(PaintCanvas).Y, Colors.Red);
                     break;
                 default:
                     break;
@@ -68,20 +55,11 @@ namespace ScreenCanvas
 
                 previousPoint = currentPoint;
             }
-            if (isDrawingRectangle)
-            {
-                changeRectangle(e);
-            }
         }
 
         private void App_MouseUp(object sender, MouseButtonEventArgs e)
         {
             isDrawingLine = false;
-            if (isDrawingRectangle)
-            {
-                addRectangle();
-                isDrawingRectangle = false;
-            }
         }
 
         private void App_KeyDown(object sender, KeyEventArgs e)
@@ -151,52 +129,16 @@ namespace ScreenCanvas
 
         private void Text(double x, double y, Color color)
         {
-            GetUserTextWindow w = new GetUserTextWindow();
-
-            LogicController.UserTextInput = "";
-
-            _ = w.ShowDialog();
-
-            TextBlock textBlock = new TextBlock
+            TextBlock newTextBlock = new TextBlock
             {
                 Text = LogicController.UserTextInput,
                 Foreground = colorSliderBrush
             };
 
-            Canvas.SetLeft(textBlock, x);
-            Canvas.SetTop(textBlock, y);
+            Canvas.SetLeft(newTextBlock, x);
+            Canvas.SetTop(newTextBlock, y);
 
-            _ = PaintCanvas.Children.Add(textBlock);
-        }
-
-        private void RectangleButton_Click(object sender, RoutedEventArgs e)
-        {
-            isDrawingLine = false;
-            isDrawingRectangle = true;
-        }
-
-        private void changeRectangle(dynamic e)
-        {
-            Point currentPoint = e.GetPosition(PaintCanvas);
-
-            tempRectangle = new Rectangle
-            {
-                Stroke = colorSliderBrush,
-                StrokeThickness = 4,
-                Width = Math.Abs(RectangleStartingPoint.X - currentPoint.X),
-                Height = Math.Abs(RectangleStartingPoint.Y - currentPoint.Y),
-            };
-
-            Canvas.SetLeft(tempRectangle, RectangleStartingPoint.X);
-            Canvas.SetTop(tempRectangle, RectangleStartingPoint.Y);
-            
-        }
-
-        private void addRectangle()
-        {
-            Rectangle newrec = new();
-            newrec = tempRectangle;
-            PaintCanvas.Children.Add(tempRectangle);
+            _ = PaintCanvas.Children.Add(newTextBlock);
         }
     }
 }

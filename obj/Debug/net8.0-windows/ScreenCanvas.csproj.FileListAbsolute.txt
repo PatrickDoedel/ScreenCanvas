@@ -20,5 +20,4 @@ C:\Users\patri\source\repos\ScreenCanvas\obj\Debug\net8.0-windows\ScreenCanvas.g
 C:\Users\patri\source\repos\ScreenCanvas\obj\Debug\net8.0-windows\ref\ScreenCanvas.dll
 C:\Users\patri\source\repos\ScreenCanvas\obj\Debug\net8.0-windows\GetUserTextWindow.g.cs
 C:\Users\patri\source\repos\ScreenCanvas\obj\Debug\net8.0-windows\GetUserTextWindow.baml
-C:\Users\patri\source\repos\ScreenCanvas\obj\Debug\net8.0-windows\UserControls\RadialMenu.g.cs
-C:\Users\patri\source\repos\ScreenCanvas\obj\Debug\net8.0-windows\UserControls\RadialMenu.baml
+C:\Users\patri\source\repos\ScreenCanvas\obj\Debug\net8.0-windows\ScreenCanvas.sourcelink.json

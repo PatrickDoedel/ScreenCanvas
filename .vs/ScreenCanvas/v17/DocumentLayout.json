@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\usercontrols\\radialmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:usercontrols\\radialmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\usercontrols\\radialmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:usercontrols\\radialmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\logiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:logiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\getusertextwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:getusertextwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|c:\\users\\patri\\source\\repos\\screencanvas\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{3EB227C0-D529-46B3-9F0D-E80DB57A577B}|ScreenCanvas.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 192,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -55,24 +63,12 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RadialMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\UserControls\\RadialMenu.xaml",
-              "RelativeDocumentMoniker": "UserControls\\RadialMenu.xaml",
-              "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\UserControls\\RadialMenu.xaml",
-              "RelativeToolTip": "UserControls\\RadialMenu.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-12T10:45:13.1Z",
-              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -80,26 +76,61 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RadialMenu.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\UserControls\\RadialMenu.xaml.cs",
-              "RelativeDocumentMoniker": "UserControls\\RadialMenu.xaml.cs",
-              "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\UserControls\\RadialMenu.xaml.cs",
-              "RelativeToolTip": "UserControls\\RadialMenu.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T10:54:17.534Z",
+              "DocumentIndex": 2,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-13T12:10:52.407Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "GetUserTextWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\GetUserTextWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GetUserTextWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\GetUserTextWindow.xaml.cs",
+              "RelativeToolTip": "GetUserTextWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:37:52.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LogicController.cs",
+              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\LogicController.cs",
+              "RelativeDocumentMoniker": "LogicController.cs",
+              "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\LogicController.cs",
+              "RelativeToolTip": "LogicController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T11:32:26.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-12T11:28:20.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\patri\\source\\repos\\ScreenCanvas\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwFIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T15:37:16.701Z",
               "EditorCaption": ""

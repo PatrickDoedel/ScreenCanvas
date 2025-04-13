@@ -28,9 +28,9 @@
             <MenuItem Header="Clear"
                       x:Name="ClearButton"
                       Click="ClearButton_Click" />
-            <MenuItem Header="Rectangle"
+            <!--<MenuItem Header="Rectangle"
                       x:Name="RectangleButton"
-                      Click="RectangleButton_Click" />
+                      Click="RectangleButton_Click" />-->
             <Slider x:Name="rainbowSlider"
                     Width="500"
                     Minimum="0"
